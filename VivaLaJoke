@@ -1,0 +1,28 @@
+print ("Wats your name?")
+firstname = input()
+print ("Hello,", firstname)
+print ("What is your surname?")
+surname = input()
+
+fullname = (firstname +" "+ surname)
+print ("Hello,", fullname)
+
+print ("What shall I call you on a daily basis?")
+name = input()
+print ("Glad to meet you,", name)
+
+
+print ("Is there anything you would like to do?")
+print (" You can 'hear a joke' or 'have a chat'")
+
+
+question = input("You want a joke or to chat?")
+if question == "joke":
+ print("Knock knock")
+idk = input()
+print ("Thanks for opening the door")
+
+if question == "chat":
+ print("What is your favourite colour?")
+game = input()
+print ("Oh my god I also love,", game)
