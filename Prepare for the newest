@@ -1,0 +1,32 @@
+userscore = 1
+
+print ("What is your name?")
+firstname = input()
+print ("Hello,", firstname)
+print ("What is your surname?")
+surname = input()
+userscore += 1
+
+fullname = (firstname +" "+ surname)
+print ("Hello,", fullname)
+
+print ("What shall I call you on a daily basis?")
+name = input()
+print ("Glad to meet you,", name)
+userscore += 1
+
+print ("Is there anything you would like to do?")
+print (" You can 'hear a joke' or 'have a chat'")
+
+question = input("You want a joke or to chat?")
+if question == "joke":
+  print("Knock knock")
+  idk = input()
+  print ("Thanks for opening the door")
+  userscore += 1
+
+if question == "chat":
+  print("What is your favourite colour?")
+  game = input()
+  print ("Oh my god I also love,", game)
+  userscore += 1
